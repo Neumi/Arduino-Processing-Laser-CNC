@@ -5,7 +5,7 @@ Arduino feat. Processing Laser CNC Project
 Hey Ho,
 
 This is a project I made in 2015 and now publishing.
-The core of the Project is a hardware made out of two CD drive stepper motors an mechanics, two LM298 motor drivers and an arduino Mega.
+The core of the Project is a hardware made out of two CD drive stepper motors an mechanics, two L298 motor drivers and an arduino Mega.
 
 The one axis controlls the 150mw 405nm laser and the oder axis moves the table.
 
