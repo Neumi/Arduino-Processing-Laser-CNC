@@ -20,3 +20,9 @@ In future versions I might implement a transmission of gray scales to change the
 Watch
 https://www.youtube.com/watch?v=gs4uoEPE4Lk
 for further information.
+
+If you like this project feel free to buy me a coffee! http://bit.ly/1JxdJZ9
+
+Best regards,
+
+Neumi
