@@ -21,7 +21,7 @@ Watch
 https://www.youtube.com/watch?v=gs4uoEPE4Lk
 for further information.
 
-If you like this project feel free to buy me a coffee! http://bit.ly/1JxdJZ9
+If you like this project feel free to buy me a coffee! https://ko-fi.com/Buttons/Buy/1669O9K1BCOA
 
 Best regards,
 
