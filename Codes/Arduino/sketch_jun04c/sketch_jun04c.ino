@@ -124,7 +124,7 @@ void loop() {
   if(digitalRead(52) == HIGH) { //if button is pressed...
     digitalWrite(led, HIGH);  // turn on laser
   }else digitalWrite(led, LOW); //if button is not pressed, turn off laser
-
+  
   
   
   if(x > 60 || x < 40 || y > 60 || y < 40) {  // if joystick is moved enough...
@@ -144,7 +144,6 @@ void loop() {
       digitalWrite(9, HIGH);
       digitalWrite(10, HIGH);
     }
-
     
     if(y > 60) {  //same for Y axis...
       doStepY(1);
