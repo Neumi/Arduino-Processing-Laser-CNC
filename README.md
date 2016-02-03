@@ -14,7 +14,7 @@ Burning time is set in the Arduino code. Pictures are imported manually and have
 
 I wrote some new stepper motor functions because I lost steps with the embedded Arduino lib. Its all some kind of sketchy, but it works perfectly fine and really fast.
 
-In future versions I might implement a transmission of gray scales to change the exposure time on the laser while the laser is operating. With this technique it might be possible to burn real grayscale pictures in different material like wood, paper etc.
+In future versions I might implement a transmission of gray scales to change the exposure time on the laser while the laser is operating. With this technique it might be possible to burn real grayscale pictures in different materials like wood, paper etc.
  
 
 Watch
