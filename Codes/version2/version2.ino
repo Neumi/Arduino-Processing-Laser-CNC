@@ -5,7 +5,7 @@ int backStepX = 1;
 int nextStepY = 1;
 int backStepY = 1;
 
-int laserTime = 3000;  // 2ms for PCB photoresist!!
+int laserTime = 3000;  // 2000us for PCB photoresist!!
 int stepTime = 500;
 
 int stepPinX = 6;
