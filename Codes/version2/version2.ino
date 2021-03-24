@@ -5,7 +5,8 @@ int backStepX = 1;
 int nextStepY = 1;
 int backStepY = 1;
 
-int laserTime = 5;  // 2ms for PCB photoresist!!
+int laserTime = 3000;  // 2ms for PCB photoresist!!
+int stepTime = 500;
 
 int stepPinX = 6;
 int dirPinX = 7;
@@ -37,7 +38,6 @@ void loop() {
       if (contentString[i] == '1') { //when string contains a black pixel at the current point...
         digitalWrite(laserPin, HIGH);    //set laser high
         doStepY(0);   // do next step
-        delay(laserTime); // wait for the time the laser should burn
       }
       else {
         digitalWrite(laserPin, LOW);   // set/keep laser off
@@ -50,7 +50,7 @@ void loop() {
       if (BackWay[i] == '1') {
         digitalWrite(laserPin, HIGH);
         doStepY(1);
-        delay(laserTime);
+        delayMicroseconds(laserTime);
       }
       else {
         digitalWrite(laserPin, LOW);
@@ -66,15 +66,15 @@ void loop() {
 void doStepX(boolean dir) {
   digitalWrite(dirPinX, dir);
   digitalWrite(stepPinX, HIGH);
-  delay(2);
+  delayMicroseconds(stepTime);
   digitalWrite(stepPinX, LOW);
-  delay(2);
+  delayMicroseconds(stepTime);
 
 }
 void doStepY(boolean dir) {
   digitalWrite(dirPinY, dir);
   digitalWrite(stepPinY, HIGH);
-  delay(2);
+  delayMicroseconds(stepTime);
   digitalWrite(stepPinY, LOW);
-  delay(2);
+  delayMicroseconds(stepTime);
 }
